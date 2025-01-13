@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/Logo.png">
+  <title>Fakultas Ilmu Keguruan & Pendidikan</title>
+</head>
+
+<body>
+  <!-- NAVBAR START -->
+  <nav class="navbar navbar-expand-lg navbar-light p-3" style="background-color: #ffffff;">
+    <a class="navbar-brand logo3 font-weight-bold" href="index.html">
+      <img src="img/Logo.png" width="35" height="35" class="d-inline-block align-top" alt="">
+      Universitas Royal
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link bortom3 text-success" href="index.html">Beranda <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link bortom3 text-success" href="#tentangKami">Tentang Kami</a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link bortom3 dropdown-toggle text-success" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Fakultas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="fakultas1.html">Fakultas Ilmu Komputer</a>
+            <a class="dropdown-item" href="fakultas2.html">Fakultas Ekonomi & Hukum</a>
+            <a class="dropdown-item" href="fakultas3.html">Fakultas Kegururan & Ilmu Pendidikan</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle bortom3 text-success" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Akademik
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="akademik1.html">Kegiatan Akademik</a>
+            <a class="dropdown-item" href="akademik2.html">Kerja Sama Dalam Negeri</a>
+            <a class="dropdown-item" href="akademik3.html">Kerja Sama Luar Negeri</a>
+            <a class="dropdown-item" href="akademik4.html">Kegiatan MBKM</a>
+            <a class="dropdown-item" href="akademik5.html">Pertukaran Mahasiswa</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-3" type="search" placeholder="Cari" aria-label="Cari">
+        <button class="btn prodi3 btn-success font-weight-bold" type="submit"> <a href="login.html"
+            class="text-dark">Login Siakad</a>
+        </button>
+      </form>
+    </div>
+  </nav>
+  <!-- NAVBAR END -->
+
+  <div class="container mt-3">
+    <!-- HEADER START -->
+    <div class="row" id="tentangKami">
+      <div class="col-sm-12">
+        <div class="jumbotron">
+          <h1 class="display-6 text-success">Fakultas Keguruan dan Ilmu Pendidikan</h1>
+          <h1 class="display-1 text-success font-weight-bold ml-3">Universitas Royal</h1>
+          <p class="lead mt-3">Universitas Royal Menyelenggarakan pendidikan dengan JenjangStrata 1 yang berfokus pada
+            Rumpun
+            Ilmu Komputer, Ekonomi, Hukum dan Pendidikan.</p>
+          <hr class="my-4">
+          <p>Terdapat 2 program studi yang ada di fakultas keguruan dan ilmu pendidikan universitas royal.</p>
+          <a class="btn prodi3 btn-success btn-lg text-dark" href="#prodi" role="button">Program Studi</a>
+        </div>
+      </div>
+    </div>
+    <!-- HEADER END  -->
+
+    <!-- MAIN START -->
+    <div class="row d-flex justify-content-around" id="prodi">
+      <div class="col-md-3 mt-5">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/gambar5.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Program Studi</h5>
+            <p class="card-text" style="font-size: 1.5em;">Matematika</p>
+            <a href="#" class="btn prodi3 btn-success text-dark">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mt-5">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/gambar5.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Program Studi</h5>
+            <p class="card-text" style="font-size: 1.5em;">Biologi</p>
+            <a href="#" class="btn prodi3 btn-success text-dark">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MAIN END -->
+  </div>
+
+  <!-- FOOTER START -->
+  <footer class="text-center mt-3 p-3" style="background-color: #16342c;">
+    <p class="font-weight-bold m-auto" style="color: #f1f1f1;">&copy;2025 Fakultas Keguruan dan Ilmu Pendidikan -
+      Universitas Royal. All
+      rights
+      reserved.
+    </p>
+  </footer>
+  <!-- FOOTER END -->
+
+
+  <script src="bootstrap/js/jquery-3.4.1.min.js"></script>
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>

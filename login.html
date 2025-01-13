@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/Logo.png">
+  <title>Login Siakad</title>
+</head>
+
+<body>
+  <!-- NAVBAR START -->
+  <nav class="navbar navbar-expand-lg navbar-dark p-3" style="background-color: #003EB9;">
+    <a class="navbar-brand font-weight-bold" href="index.html">
+      <img src="img/Logo.png" width="35" height="35" class="d-inline-block align-top" alt="">
+      Universitas Royal
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Beranda <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#tentangKami">Tentang Kami</a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Fakultas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="fakultas1.html">Fakultas Ilmu Komputer</a>
+            <a class="dropdown-item" href="fakultas2.html">Fakultas Ekonomi & Hukum</a>
+            <a class="dropdown-item" href="fakultas3.html">Fakultas Keguruan & Ilmu Pendidikan</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Akademik
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="akademik1.html">Kegiatan Akademik</a>
+            <a class="dropdown-item" href="akademik2.html">Kerja Sama Dalam Negeri</a>
+            <a class="dropdown-item" href="akademik3.html">Kerja Sama Luar Negeri</a>
+            <a class="dropdown-item" href="akademik4.html">Kegiatan MBKM</a>
+            <a class="dropdown-item" href="akademik5.html">Pertukaran Mahasiswa</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-3" type="search" placeholder="Cari" aria-label="Cari">
+        <button class="btn btn-warning my-sm-0 font-weight-bold" type="submit"><a href="login.html"
+            class="text-dark">Login Siakad</a></button>
+      </form>
+    </div>
+  </nav>
+  <!-- NAVBAR END -->
+
+  <!-- MAIN START -->
+  <div class="container bg-light mt-3 d-flex align-items-center justify-content-center flex-column">
+    <h1 class="display-5 text-primary">Login Siakad</h1>
+    <div class="row">
+      <div class="col-md-12 mt-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/gambar6.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title text-warning">Universitas Royal</h4>
+            <p class="card-title" style="font-size: small;">Berbudaya Mutu, Berwawasan Global</p>
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">UserID/NIM</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="UserID/NIM">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Hak Akses</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1. Administrasi</option>
+                  <option>2. Dosen</option>
+                  <option>3. Mahasiswa</option>
+                  <option>4. Bag Akademik</option>
+                  <option>5. Bag Keuangan</option>
+                  <option>6. Umum</option>
+                  <option>7. Baak</option>
+                  <option>8. Prodi</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-primary px-5">Login</button>
+              <footer class="text-center mt-3">
+                <p class="font-weight-bold m-auto text-dark">&copy;2025 Pertukaran Mahasiswa - Universitas
+                  Royal. All rights reserved.</p>
+              </footer>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MAIN END -->
+
+  <script src="bootstrap/js/jquery-3.4.1.min.js"></script>
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
